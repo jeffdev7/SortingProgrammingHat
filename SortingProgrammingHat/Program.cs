@@ -24,7 +24,7 @@ namespace SortingProgrammingHat
         {
             Console.WriteLine(" Welcome to the sorting Ceremony\n");
             Console.WriteLine(" Tell me your favorite programming language and I tell you which house you belong\n");
-            Console.WriteLine(" After you've been sorted you may press 0 to exit.");
+            Console.WriteLine(" After you've been sorted you may press 0 to exit.\n");
 
             List<string> Languages = new List<string>();
             Languages.Add(" 1-JavaScript");
@@ -44,7 +44,7 @@ namespace SortingProgrammingHat
             while (true)
             {
                 int Haus = int.Parse(Console.ReadLine());
-                Console.WriteLine("\n"+((House)Haus).ToString() +"\n");
+                Console.WriteLine(((House)Haus).ToString() +"\n");
   
                 if((Haus == 5) || (Haus == 7))
                 {
@@ -53,7 +53,7 @@ namespace SortingProgrammingHat
                 
                 if (Haus == 1)
                 {
-                    Console.WriteLine("Perhaps, Slytherin would help you to get to greatness.");
+                    Console.WriteLine("Perhaps, Slytherin would help you to get to greatness too.");
                 }
 
                 if ((Haus > 8) || (Haus == 0))
