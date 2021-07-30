@@ -48,12 +48,12 @@ namespace SortingProgrammingHat
   
                 if((Haus == 5) || (Haus == 7))
                 {
-                    Console.WriteLine("However, Hufflepuff would you take you in wholeheartedly.");
+                    Console.WriteLine("However, Hufflepuff would take you in wholeheartedly.");
                 }
                 
                 if (Haus == 1)
                 {
-                    Console.WriteLine("Perhaps, Slytherin would you help you to get to the greatness.");
+                    Console.WriteLine("Perhaps, Slytherin would help you to get to greatness.");
                 }
 
                 if ((Haus > 8) || (Haus == 0))
